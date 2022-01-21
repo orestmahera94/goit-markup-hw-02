@@ -1,0 +1,18 @@
+:root {
+  --body-text-color: #212121;
+}
+body {
+  font-family: Roboto, Raleway;
+  font-weight: 400, 500, 700, 900;
+  color: var(--body-text-color);
+}
+button:hover,
+a:hover {
+  background: #2196f3;
+}
+.size-header {
+  font-size: 14px;
+}
+.size-button {
+  font-size: 16px;
+}
