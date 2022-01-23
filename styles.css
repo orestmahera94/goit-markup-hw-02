@@ -11,20 +11,28 @@ button:hover,
 a:hover {
   background: #2196f3;
 }
-.size-header {
+.header {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.15;
 }
 .size-button {
   font-size: 16px;
-  f
+  line-height: 1.6;
 }
 .small-text-image {
   color: var(--image-text-color);
+  line-height: 30px;
 }
 .big-text-image {
   font-family: 18px;
+  line-height: 2;
 }
-.logo{
+.logo {
   font-size: 26px;
+  line-height: 1.2;
+}
+.footer {
+  font-size: 14px;
+  line-height: 1.7;
 }
