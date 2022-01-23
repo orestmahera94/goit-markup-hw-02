@@ -1,5 +1,6 @@
 :root {
   --body-text-color: #212121;
+  --image-text-color: #757575;
 }
 body {
   font-family: Roboto, Raleway;
@@ -12,7 +13,15 @@ a:hover {
 }
 .size-header {
   font-size: 14px;
+  font-weight: 500;
 }
 .size-button {
   font-size: 16px;
+  f
+}
+.small-text-image {
+  color: var(--image-text-color);
+}
+.big-text-image {
+  font-family: 18px;
 }
