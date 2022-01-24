@@ -10,6 +10,7 @@ body {
 button:hover,
 a:hover {
   background: #2196f3;
+  cursor: pointer;
 }
 .header {
   font-size: 14px;
