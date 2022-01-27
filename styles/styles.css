@@ -3,10 +3,11 @@
   --image-text-color: #757575;
   --background-botton-color: #2196f3;
   --white-color: #ffffff;
+  --footer-background-color: #2f303a;
 }
 body {
   font-family: Roboto, Raleway;
-  font-weight: 400, 500, 700, 900;
+  font-weight: 400;
   color: var(--body-text-color);
 }
 li {
@@ -24,47 +25,66 @@ a:hover {
   background: var(--background-botton-color);
   cursor: pointer;
 }
-h2 {
-  font-size: 36px;
-  line-height: 42px;
-  text-align: center;
+button:focus,
+a:focus {
+  background: var(--background-botton-color);
+  cursor: pointer;
 }
 
+footer {
+  background-color: var(--footer-background-color);
+}
 .header {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.15;
 }
+.hero {
+  background-color: var(--footer-background-color);
+  color: var(--white-color);
+  font-size: 44px;
+  line-height: 60px;
+  text-align: center;
+  font-weight: 900;
+  font-style: normal;
+}
 .contacts {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.15;
   color: var(--image-text-color);
 }
 .menu-portfolio {
   font-size: 16px;
   line-height: 1.6;
+  font-family: Roboto;
+  font-weight: 500;
 }
 .small-text-image {
   color: var(--image-text-color);
-  line-height: 30px;
+  font-size: 14px;
+  line-height: 24px;
 }
 .big-text-image {
-  font-family: 18px;
+  font-size: 18px;
   line-height: 2;
+  font-weight: 700;
 }
 .logo {
   font-size: 26px;
   line-height: 1.2;
   font-weight: 700;
+  color: var(--body-text-color);
+  font: Raleway;
+}
+.color-logo {
+  color: var(--background-botton-color);
 }
 .footer {
   font-size: 14px;
   line-height: 1.7;
 }
-.color-logo {
-  color: var(--background-botton-color);
+.footer-color {
+  color: var(--white-color);
 }
+
 .menu-color {
   color: var(--body-text-color);
 }
@@ -72,12 +92,38 @@ h2 {
   background-color: var(--background-botton-color);
 }
 .index-bottom-oreder-servise {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
   line-height: 30px;
   background-color: var(--background-botton-color);
   color: var(--white-color);
 }
-.index-smoll-text-color {
+.index-smoll-text {
   color: var(--image-text-color);
+  font-size: 14px;
+  line-height: 24px;
+}
+.title-h2 {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  font-weight: 700;
+}
+.title-h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+}
+.team {
+  background: #f5f4fa;
+}
+.name-workers {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+.profession-worker {
+  color: var(--image-text-color);
+  font-size: 16px;
+  line-height: 19px;
 }
