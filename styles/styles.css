@@ -6,7 +6,7 @@
   --footer-background-color: #2f303a;
 }
 body {
-  font-family: Roboto, Raleway;
+  font-family: Roboto;
   font-weight: 400;
   color: var(--body-text-color);
 }
@@ -30,8 +30,7 @@ a:focus {
   background: var(--background-botton-color);
   cursor: pointer;
 }
-
-footer {
+.footer-background-color {
   background-color: var(--footer-background-color);
 }
 .header {
@@ -43,7 +42,7 @@ footer {
   background-color: var(--footer-background-color);
   color: var(--white-color);
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   text-align: center;
   font-weight: 900;
   font-style: normal;
@@ -60,7 +59,7 @@ footer {
 .small-text-image {
   color: var(--image-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7px;
 }
 .big-text-image {
   font-size: 18px;
@@ -72,7 +71,7 @@ footer {
   line-height: 1.2;
   font-weight: 700;
   color: var(--body-text-color);
-  font: Raleway;
+  font-family: Raleway;
 }
 .color-logo {
   color: var(--background-botton-color);
@@ -80,6 +79,7 @@ footer {
 .footer {
   font-size: 14px;
   line-height: 1.7;
+  font-style: normal;
 }
 .footer-color {
   color: var(--white-color);
@@ -94,25 +94,26 @@ footer {
 .index-bottom-oreder-servise {
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+
+  line-height: 1.8;
   background-color: var(--background-botton-color);
   color: var(--white-color);
 }
 .index-smoll-text {
   color: var(--image-text-color);
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.7;
 }
 .title-h2 {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.16;
   text-align: center;
   font-weight: 700;
 }
 .title-h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
 }
 .team {
   background: #f5f4fa;
@@ -120,10 +121,10 @@ footer {
 .name-workers {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
 .profession-worker {
   color: var(--image-text-color);
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 }
