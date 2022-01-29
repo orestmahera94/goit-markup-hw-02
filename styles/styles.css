@@ -39,6 +39,9 @@ a:focus {
   font-weight: 500;
   line-height: 1.15;
 }
+.header-color-contacts {
+  color: #757575;
+}
 .hero {
   background-color: var(--footer-background-color);
   color: var(--white-color);
