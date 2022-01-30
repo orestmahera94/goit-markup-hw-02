@@ -7,7 +7,7 @@
   --footer-contacts-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  font-family: Roboto;
+  font-family: Roboto, Open-Sans;
   font-weight: 400;
   color: var(--body-text-color);
 }
@@ -21,15 +21,24 @@ ul {
 a {
   text-decoration: none;
 }
+li:active,
+.menu-color:active,
+a:active {
+  color: var(--background-botton-color);
+}
 button:hover,
 a:hover {
-  background: var(--background-botton-color);
+  color: var(--background-botton-color);
   cursor: pointer;
 }
 button:focus,
 a:focus {
-  background: var(--background-botton-color);
+  color: var(--background-botton-color);
   cursor: pointer;
+}
+.menu-portfolio:active {
+  background-color: var(--background-botton-color);
+  color: var(--white-color);
 }
 .footer-background-color {
   background-color: var(--footer-background-color);
