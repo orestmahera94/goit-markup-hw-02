@@ -22,11 +22,13 @@ a {
   text-decoration: none;
 }
 li:active,
-.menu-color:active,
 a:active {
   color: var(--background-botton-color);
 }
-button:hover,
+button:hover {
+  color: var(--white-color);
+  background-color: var(--background-botton-color);
+}
 a:hover {
   color: var(--background-botton-color);
   cursor: pointer;
@@ -36,9 +38,8 @@ a:focus {
   color: var(--background-botton-color);
   cursor: pointer;
 }
-.menu-portfolio:active {
-  background-color: var(--background-botton-color);
-  color: var(--white-color);
+h1 {
+  visibility: hidden;
 }
 .footer-background-color {
   background-color: var(--footer-background-color);
@@ -139,4 +140,7 @@ a:focus {
   color: var(--image-text-color);
   font-size: 16px;
   line-height: 1.18;
+}
+.store-active {
+  color: var(--background-botton-color);
 }
