@@ -38,7 +38,7 @@ a:focus {
   color: var(--background-botton-color);
   cursor: pointer;
 }
-h1 {
+.our-work {
   visibility: hidden;
 }
 .footer-background-color {
